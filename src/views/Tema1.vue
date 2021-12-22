@@ -297,7 +297,7 @@
 
     .tabla-a.color-acento-botones.mt-4(style="overflow:clip;")
       table(style="min-width:100%")
-        caption(style="background-color:#F8F8F8;") Nota: Adaptado del texto “El suelo y el petróleo” (Barois, 2018).
+        caption(style="background-color:#F8F8F8;font-weight:500;") Nota: Adaptado del texto “El suelo y el petróleo” (Barois, 2018).
         thead(style="border:none")
           th.text-white(style="width:30%;background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Tipo
           th.text-white(style="width:40%;background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Hidrocarburo
@@ -355,28 +355,28 @@
 
         .tabla-a.color-acento-botones.mt-4(style="overflow:clip;")
           table(style="min-width:100%;")
-            caption(style="background-color:#F8F8F8;") Nota. Adaptado de OMS, 1975 (Del Puerto, 2014).
+            caption(style="background-color:#F8F8F8;font-weight:500;") Nota. Adaptado de OMS, 1975 (Del Puerto, 2014).
             thead(style="border:none")
               th.text-white(style="background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Categoría Toxicidad
               th.text-white(style="background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Tipo toxicológico
               th.text-white.text-center(style="background-color:#1A7B96;border:none;padding:15px;font-size:17px") DL#[sub 50] ( mg plaguicida/kg de masa corporal)
             tbody
               tr(style="background-color:#EBEFF6;")
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Extremada 
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") I
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") &lt; 5.0
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Extremada 
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") I
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") &lt; 5.0
               tr(style="background-color:#F7FDFF;")
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Alta
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") II
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") 5.0-50.0
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Alta
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") II
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") 5.0-50.0
               tr(style="background-color:#EBEFF6;")
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Moderada 
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") III
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") 50.0-500.0
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Moderada 
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") III
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") 50.0-500.0
               tr(style="background-color:#F7FDFF;")
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Ligera
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") IV
-                td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") &lt;  500.0
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Ligera
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") IV
+                td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") &lt;  500.0
 
     p.mt-5(data-aos="fade-up") Los impactos negativos causados al ambiente por los plaguicidas se encuentran en función de su toxicidad y su persistencia; y la predicción de estos efectos se logra gracias a rigurosos estudios, basados en la cinética química y en las propiedades innatas de los componentes ambientales, tales como el coeficiente de absorción del suelo o la solubilidad.
 
@@ -517,8 +517,8 @@
       figure
         img(src="@/assets/curso/tema1/24.svg" data-aos="fade-up")
 
-    br
-    br
+    Separador
+      
     .titulo-segundo.mt-5
       h2#t_1_4 1.4  Fundamentos de biorremediación de suelos y aguas
     p(data-aos="fade-up") Los crecientes problemas de contaminación y deterioro ambiental generados de la alta utilización de sustancias químicas y los residuos generados de diferentes actividades, y cuyas características más preocupantes son su baja biodegradabilidad y alta toxicidad han despertado la atención de la comunidad en general, debido a que sus efectos pueden llegar a ser letales no solo para el ser humano, sino para todo el ecosistema como tal.
@@ -604,6 +604,8 @@ export default {
 }
 </script>
 <style lang="sass">
+.bloque-texto-g.color-secundario
+    background-color: #1a7b96
 .cajon-b.color-primario:before
   background-color: #D2EFF7
   opacity: 1
@@ -633,6 +635,7 @@ export default {
     border-left-color: #1F548A
 .pasos-a.color-acento-botones .pasos-a__circle div
     color: #00FFE6
+    text-transform: lowercase
 .pasos-a.color-acento-botones .pasos-a__circle
     background-color: #0F1E5A
 .cajon-b2:before
@@ -643,4 +646,22 @@ export default {
   border: solid 4px #00FFE6
 .tabs-a__tab
   background-color: #C6EDFF
+.pasos-a.color-acento-botones .pasos-a__circle div:after
+  content: ''
+  position: absolute
+  background-color: #0a6184
+  left: -52%
+  z-index: -1
+  border-radius: 50%
+  padding: 107%
+  top: 4%
+.pasos-a.color-acento-botones .pasos-a__circle div:before
+  content: ''
+  position: absolute
+  background-color: #0c4371
+  left: -94%
+  z-index: -2
+  border-radius: 50%
+  padding: 150%
+  top: -11%
 </style>

@@ -20,7 +20,7 @@
       .bloque-texto-d.color-secundario.p-4
         .bloque-texto-d__texto.mb-2
           i.fas.fa-quote-left(data-aos="fade-right")
-          p(data-aos="fade-up") El sistema de gestión aplica a todos los empleadores públicos y privados, los trabajadores dependientes e independientes, los trabajadores cooperados, los trabajadores en misión, los contratantes de personal bajo modalidad de contrato civil, comercial o administrativo, las organizaciones de economía solidaria y del sector cooperativo, las empresas de servicios temporales, las agremiaciones u asociaciones que afilian trabajadores independientes al Sistema de Seguridad Social Integral; las administradoras de riesgos laborales; la Policía Nacional en lo que corresponde a su personal no uniformado y al personal civil de las Fuerzas Militares
+          p(data-aos="fade-up") El sistema de gestión aplica a todos los empleadores públicos y privados, los trabajadores dependientes e independientes, los trabajadores cooperados, los trabajadores en misión, los contratantes de personal bajo modalidad de contrato civil, comercial o administrativo, las organizaciones de economía solidaria y del sector cooperativo, las empresas de servicios temporales, las agremiaciones u asociaciones que afilian trabajadores independientes al Sistema de Seguridad Social Integral; las administradoras de riesgos laborales; la Policía Nacional en lo que corresponde a su personal no uniformado y al personal civil de las Fuerzas Militares.
           i.fas.fa-quote-right(data-aos="fade-left")
 
     p.mt-5(data-aos="fade-up") Para ampliar el tema con relación a las implicaciones de los problemas de la contaminación ambiental sobre la salud humana lea el artículo “#[strong(style="color: #22AFD6 !important;") La contaminación ambiental como factor determinante de la salud]” de la Revista Española de Salud Pública que se encuentra en el material complementario.
@@ -55,7 +55,7 @@
       p.p-1.mt-4(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 9.] Clasificación de factores de riesgo
         figure
           img(src="@/assets/curso/tema4/3.png" data-aos="fade-up")
-        figcaption(style="background-color:#DCEBEF;font-weight:400;") Adaptado de Clasificación de los factores de riesgo. Salud ocupacional (s.f).
+        figcaption(style="background-color:#DCEBEF;font-weight:400;") Adaptado de Clasificación de los factores de riesgo. Salud ocupacional (s.f). #[a(href="http://saludocupacionalxd.blogspot.com/2015/04/clasificacion-de-los-factores-de-riesgos.html" target="_blank") http://saludocupacionalxd.blogspot.com/2015/04/clasificacion-de-los-factores-de-riesgos.html]
 
     p.mt-5(data-aos="fade-up") Para el caso de las actividades desarrolladas en los procesos de biorremediación, toman mayor relevancia los factores de riesgo pertenecientes al grupo denominado contaminantes del ambiente, al que pertenecen los generadores de riesgo físico, químico y biológico.
 
@@ -113,7 +113,7 @@
       .cajon.color-secundario.p-5(style="border-bottom-right-radius:100px;")
         .p(data-aos="fade-up") En el caso de los procesos de biorremediación en laboratorio se debe realizar un adecuado alistamiento de los instrumentos y materiales a utilizar, así como el correcto y oportuno proceso de limpieza de estos una vez usados, también ser muy correctos con la gestión de los residuos generados y conocer el protocolo para procesos de limpieza en caso de derrames de los sustratos o insumos utilizados en los procesos.
 
-    p.mt-5(data-aos="fade-up") Dentro de los programas de orden, aseo y limpieza más comunes, destaca el llamado 5s, el cual fue clave para la recuperación de la productividad en las organizaciones japonesas en la etapa posguerra, su denominación deriva de las palabras que representan los cinco pasos o etapas a desarrollar:
+    p.mt-5(data-aos="fade-up") Dentro de los programas de orden, aseo y limpieza más comunes, destaca el llamado #[strong 5s], el cual fue clave para la recuperación de la productividad en las organizaciones japonesas en la etapa posguerra, su denominación deriva de las palabras que representan los cinco pasos o etapas a desarrollar:
 
     ImagenInfografica.color-secundario.mt-4(data-aos="fade-in")
       template(v-slot:imagen)
@@ -158,19 +158,19 @@
       .bloque-texto-d.color-secundario.p-4(style="border:none;")
         .bloque-texto-d__texto.mb-2
           i.fas.fa-quote-left(data-aos="fade-right" style="display:contents;")
-          h5(data-aos="fade-up") &nbsp;&nbsp;&nbsp; Aquellos que por sus características (corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas) pueden causar riesgo o daño para la salud humana y el ambiente. Asimismo, se considera residuo o desecho peligroso los envases, empaques y embalajes que hayan estado en contacto con ellos
+          h5(data-aos="fade-up") &nbsp;&nbsp;&nbsp; Aquellos que por sus características (corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas) pueden causar riesgo o daño para la salud humana y el ambiente. Asimismo, se considera residuo o desecho peligroso los envases, empaques y embalajes que hayan estado en contacto con ellos.
           div(style="text-align:right;display:block")
             p.text-small(style="display:inline;") (Decreto 4741 de 2005) 
             i.fas.fa-quote-right(data-aos="fade-left")
 
-    p.mt-5(data-aos="fade-up") Dentro de toda actividad se generan residuos de todo tipo, las actividades ambientales y específicamente la biorremediación, no es la excepción, con la particularidad que la mayoría de los residuos generados en estos procesos son de tipo peligroso (respel), lo que les confiere particularidades en su manejo:
+    p.mt-5(data-aos="fade-up") Dentro de toda actividad se generan residuos de todo tipo, las actividades ambientales y específicamente la biorremediación, no es la excepción, con la particularidad que la mayoría de los residuos generados en estos procesos son de tipo peligroso (#[em respel]), lo que les confiere particularidades en su manejo:
 
     div.mt-3(v-show="imagen_info1" data-aos="fade-in")
       .p-5(style="background-color:#0F1E5A;")
           .row
             .col-lg-5
               h4.text-white Residuos líquidos
-              p.text-white(data-aos="fade-up") Los que no presenten contaminación por presencia de materiales peligrosos pueden ser vertidos por el alcantarillado común y ser tratados como aguas residuales domésticas;  sin embargo, los que presenten contaminación deben ser almacenados y presentados como residuos peligrosos para que una empresa especializada realice el proceso de recolección, transporte, tratamiento y disposición final como lo establece el Decreto 4741 de 2005, el cual reglamenta todo lo concerniente a #[strong(style="color:#22AFD6 !important;") Respel] en Colombia.
+              p.text-white(data-aos="fade-up") Los que no presenten contaminación por presencia de materiales peligrosos pueden ser vertidos por el alcantarillado común y ser tratados como aguas residuales domésticas;  sin embargo, los que presenten contaminación deben ser almacenados y presentados como residuos peligrosos para que una empresa especializada realice el proceso de recolección, transporte, tratamiento y disposición final como lo establece el Decreto 4741 de 2005, el cual reglamenta todo lo concerniente a #[strong(style="color:#22AFD6 !important;") #[em Respel]] en Colombia.
 
             .col-lg-7
               figure.text-center
@@ -214,7 +214,7 @@
           .row
             .col-lg-5
               h4.text-white Residuos peligrosos
-              p.text-white(data-aos="fade-up") Se han convertido en una de las problemáticas más relevantes a nivel mundial, debido a los impactos negativos causados al ambiente y la salud de los seres vivos. #[br] En la generación de #[strong(style="color:#22AFD6 !important;") Respel] a escala mundial, Colombia se encuentra en una escala intermedia, y a nivel local es de prestar atención a los departamentos con industria petrolera, ya que de ella provienen la mayoría de los #[strong(style="color:#22AFD6 !important;") Respel] en el país, acompañado de metales pesados y demás compuestos orgánicos. #[br] Esta situación representa un inmenso campo de acción para disciplinas como la biorremediación, ya que son justamente este tipo de sustancias, con alto grado de toxicidad,  el objeto de estudio de sus técnicas.
+              p.text-white(data-aos="fade-up") Se han convertido en una de las problemáticas más relevantes a nivel mundial, debido a los impactos negativos causados al ambiente y la salud de los seres vivos. #[br] En la generación de #[strong(style="color:#22AFD6 !important;") #[em Respel]] a escala mundial, Colombia se encuentra en una escala intermedia, y a nivel local es de prestar atención a los departamentos con industria petrolera, ya que de ella provienen la mayoría de los #[strong(style="color:#22AFD6 !important;") #[em Respel]] en el país, acompañado de metales pesados y demás compuestos orgánicos. #[br] Esta situación representa un inmenso campo de acción para disciplinas como la #[strong biorremediación], ya que son justamente este tipo de sustancias, con alto grado de toxicidad,  el objeto de estudio de sus técnicas.
 
             .col-lg-7
               figure.text-center
@@ -246,15 +246,6 @@
     p.mt-5(data-aos="fade-up") Dentro de las actividades de implementación más relevantes están las capacitaciones y los simulacros periódicos, los cuales deben arrojar datos cuantificables de tiempo de respuesta, porcentaje de evacuación, cantidad de personas evacuadas en una intervención, etc.
     p.mt-3(data-aos="fade-up") En los planes de emergencia también deben quedar especificadas las funciones y los responsables de cada uno de los diferentes equipos que intervendrán en una emergencia, así como el procedimiento para capacitación de trabajadores propios, contratistas y visitantes.
 
-    h3.mt-5(data-aos="fade-up") Sintesis
-
-    p.mt-4(data-aos="fade-up") A continuación, se presenta un mapa conceptual que muestra una síntesis de la temática estudiada en el componente formativo.
-
-    p.p-1.mt-4(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 11.] Mapa conceptual
-      figure
-        img(src="@/assets/curso/tema4/12.svg" data-aos="fade-up")
-
-
   
 </template>
 
@@ -282,6 +273,8 @@ export default {
 .cajon-b.color-primario:before
   background-color: #D2EFF7
   opacity: 1
+.bloque-texto-g.color-secundario
+    background-color: #1a7b96
 .img-infografica.color-secundario .img-infografica__item__numero, .img-infografica-b.color-secundario .img-infografica__item__numero
   color: #1F548A
   font-size: 20px

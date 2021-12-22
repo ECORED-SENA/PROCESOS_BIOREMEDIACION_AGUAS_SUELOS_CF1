@@ -9,13 +9,12 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 RECONOCIMIENTO DE CONCEPTOS BÁSICOS DE BIORREMEDIACIÓN
+          h2 Reconocimiento de conceptos básicos de biorremediación
         p.mb-4 Reconocer los conocimientos básicos adquiridos en el estudio del presente componente formativo.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Se trata de una actividad tipo test de selección múltiple, en la cual podrás repasar algunos de los conceptos básicos adquiridos en el estudio del componente formativo "Principios Generales de la Biorremediación y Microbiología”.
-              p.fw-bold.mb-0 Recuerda que esta actividad tiene como finalidad el autodiagnóstico, mas no es una actividad de evaluación. Se trata de identificar aquellos aspectos que necesitan refuerzo y un poco más de profundidad para el afianzamiento de los conceptos de saber abordados en el desarrollo del componente.
+              p.fw-bold.mb-0 Opción múltiple
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

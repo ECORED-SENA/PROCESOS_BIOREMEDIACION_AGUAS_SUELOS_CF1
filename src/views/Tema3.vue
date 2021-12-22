@@ -59,7 +59,7 @@
     p.p-1.mt-4(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 8.] Reinos de la naturaleza
       figure
         img(src="@/assets/curso/tema3/4.svg" data-aos="fade-up")
-      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de “Los reinos de la naturaleza” (Morales, s.f.).
+      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de “Los reinos de la naturaleza” (Morales, s.f.). #[a(href="https://tomi.digital/es/10865/los-reinos-de-la-naturaleza?utm_source=google&utm_medium=seo" target="_blank") https://tomi.digital/es/10865/los-reinos-de-la-naturaleza?utm_source=google&utm_medium=seo]
 
     p.mt-5(data-aos="fade-up") Con el avance de las técnicas moleculares y el detallado estudio del ARN se estableció la existencia de similitudes entre los seres vivos a nivel molecular, esto permitió establecer tres grandes grupos llamados dominios, que permitieron reestructurar la forma de clasificar los seres vivos y que se consideran superiores a los reinos:
 
@@ -69,13 +69,13 @@
           img(src='@/assets/curso/tema3/5.png' alt='' data-aos="fade-in")
 
       .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="20%" y="5%" numero="")
-        .h4.text-center(style="color:#89EBD4;") Bacteria
+        .h4.text-center(style="color:#7d9e09;") Bacteria
         p.mt-3.text-white.text-center Células procariotas  unicelulares con pared celular compuesta de peptidoglicano
       .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="48%" y="5%" numero="")
-        .h4.text-center(style="color:#89EBD4;") Archaea
+        .h4.text-center(style="color:#6386a5;") Archaea
         p.mt-3.text-white.text-center Células procariotas  unicelulares con pared celular carente de peptidoglicano
       .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="78%" y="5%" numero="")
-        .h4.text-center(style="color:#89EBD4;") Eukarya
+        .h4.text-center(style="color:#c7685c;") Eukarya
         p.mt-3.text-white.text-center Células eucariotas
 
     p.mt-4(data-aos="fade-up")  Para poder clasificar y nombrar microorganismos se deben realizar los respectivos procesos de identificación, los cuales se realizan siguiendo métodos ya establecidos, dentro de los cuales se destacan:
@@ -100,11 +100,12 @@
 
     p(data-aos="fade-up") Los flujos de energía y circulación de la materia son los procesos que permiten que las células puedan desarrollar sus procesos vitales, tales como la producción o consumo de energía (a partir de las moléculas provenientes de los alimentos que se consumen) y la generación de nuevos productos que permitan el normal funcionamiento fisiológico de los organismos; para ello existe una gran cantidad de procesos bioquímicos al interior de las células, que se encargan de mantener ese equilibrio entre la circulación de materia y el flujo de energía, a esta serie de procesos se les denomina metabolismo.
 
-    .bloque-texto-g.color-secundario.p-5.mt-5.col-lg-10.m-auto
+    .bloque-texto-g.color-secundario.p-4.mt-5.col-lg-10.m-auto
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/6.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
+        h4.d-block Ruta Metabólica
         p.mb-0(data-aos="fade-up") Son los procesos para la obtención y consumo de energía al interior de las células, que se dan a través de reacciones químicas que permiten transformar con ayuda de las enzimas, sustancias complejas en otras más sencillas (obtención de energía) o moléculas sencillas en otras más complejas (gasto de energía).
 
     p.mt-5(data-aos="fade-up") Las enzimas son moléculas cuya función es acelerar las reacciones químicas y en algunos casos son indispensables para que la reacción pueda llevarse a cabo. En el transcurso de una ruta metabólica se producen diferentes sustancias, a las cuales se les da el nombre de metabolitos, estas sustancias pueden ser el producto final de la reacción o pueden ser productos intermedios, en cualquier caso, su aparición es debida a la acción de las enzimas y la importancia es alta, ya que pueden representar conexión con otras rutas metabólicas o pueden ser de interés antrópico.
@@ -130,7 +131,7 @@
     .titulo-segundo.mt-5
       h2#t_3_3 3.3  Ciclos biogeoquímicos
 
-    p(data-aos="fade-up") Los procesos de circulación de materia y flujos de energía característicos del metabolismo microbiano se dan también entre los diferentes elementos de los ecosistemas del planeta, formando una serie de interacciones entre estos elementos y los seres vivos, conocidos como ciclos biogeoquímicos y se refieren a la circulación de elementos (azufre, calcio, carbono, fósforo, nitrógeno, oxígeno, hierro) o sustancias (como el agua) indispensables para todas las formas de vida, que pueden ser utilizados una y otra vez , que permiten la circulación de materia entre organismos y otros factores, en forma de nutrientes. 
+    p(data-aos="fade-up") Los procesos de circulación de materia y flujos de energía característicos del metabolismo microbiano se dan también entre los diferentes elementos de los ecosistemas del planeta, formando una serie de interacciones entre estos elementos y los seres vivos, conocidos como #[strong(style="color: #22AFD6 !important;") ciclos biogeoquímicos] y se refieren a la circulación de elementos (azufre, calcio, carbono, fósforo, nitrógeno, oxígeno, hierro) o sustancias (como el agua) indispensables para todas las formas de vida, que pueden ser utilizados una y otra vez , que permiten la circulación de materia entre organismos y otros factores, en forma de nutrientes. 
     p.mt-3(data-aos="fade-up") Los nutrientes disponibles para los procesos vitales en el planeta se pueden clasificar en: 
 
     ul.lista-ul.mt-4.col-lg-9.m-auto
@@ -206,7 +207,8 @@
       .p-5(style="background-color:#0F1E5A;")
           .row
             .col-lg-5
-              p.text-white(data-aos="fade-up") EParte de la evaporación del agua se debe al calentamiento ejercido por el sol, lo que la convierte en estado gaseoso, la cual se suma al vapor de agua perdido por los seres vivos mediante la transpiración; después este vapor en la atmósfera se enfría y se condensa formando las nubes, donde el agua termina precipitándose y regresando a los cuerpos de agua superficiales y subterráneos para iniciar nuevamente el ciclo.
+              h4.text-white Ciclo del agua
+              p.text-white(data-aos="fade-up") Parte de la evaporación del agua se debe al calentamiento ejercido por el sol, lo que la convierte en estado gaseoso, la cual se suma al vapor de agua perdido por los seres vivos mediante la transpiración; después este vapor en la atmósfera se enfría y se condensa formando las nubes, donde el agua termina precipitándose y regresando a los cuerpos de agua superficiales y subterráneos para iniciar nuevamente el ciclo.
 
             .col-lg-7
               figure.text-center
@@ -249,6 +251,8 @@ export default {
 .cajon-b.color-primario:before
   background-color: #D2EFF7
   opacity: 1
+.bloque-texto-g.color-secundario
+    background-color: #1a7b96
 .img-infografica.color-secundario .img-infografica__item__numero, .img-infografica-b.color-secundario .img-infografica__item__numero
   color: #1F548A
   font-size: 20px

@@ -132,7 +132,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -214,7 +214,7 @@ export default {
     {
       termino: 'Biodegradabilidad',
       significado:
-        'Ecozema la define como la capacidad de descomposición debido a la actividad enzimática que presentan las sustancias o materiales orgánicos, convirtiéndose en sustancias más sencillas e incluso llegar a moléculas inorgánicas simples como agua, dióxido de carbono y metano.',
+        ' <strong>Ecozema la define como la capacidad de descomposición debido a la actividad enzimática que presentan las sustancias o materiales orgánicos, convirtiéndose en sustancias más sencillas</strong> e incluso llegar a moléculas inorgánicas simples como agua, dióxido de carbono y metano.',
     },
     {
       termino: 'Biodisponibilidad',
@@ -224,7 +224,7 @@ export default {
     {
       termino: 'Bioestructura',
       significado:
-        'La Agroforesttery science web information la define como la forma grumosa del suelo, que es estable al agua y que depende de coloides generados a partir de bacterias, algas e hifas de hongos. Estos grumos se llaman agregados y son aglomerados de partículas de suelo menores a 5 mm de diámetro, que pueden ser de origen químico (agregados primarios) o generados por los microorganismos del suelo (agregados secundarios).',
+        'La <em>Agroforesttery science web information</em> la define como la forma grumosa del suelo, que es estable al agua y que depende de coloides generados a partir de bacterias, algas e hifas de hongos. Estos grumos se llaman agregados y son aglomerados de partículas de suelo menores a 5 mm de diámetro, que pueden ser de origen químico (agregados primarios) o generados por los microorganismos del suelo (agregados secundarios).',
     },
     {
       termino: 'Biomagnificación',
