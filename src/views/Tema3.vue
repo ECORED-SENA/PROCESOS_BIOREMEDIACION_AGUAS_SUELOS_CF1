@@ -48,9 +48,9 @@
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
         p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Protista (microorganismos eucariotas, es decir, con núcleo separado por medio de una membrana).
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Fungi (formado por todos los hongos, también llamado reino mycota).
+        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; #[em Fungi] (formado por todos los hongos, también llamado reino mycota).
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Plantae (incluye todos los seres que son autótrofos, es decir, plantas y algas superiores).
+        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; #[em Plantae] (incluye todos los seres que son autótrofos, es decir, plantas y algas superiores).
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
         p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Animalia (animales superiores, heterótrofos).
 

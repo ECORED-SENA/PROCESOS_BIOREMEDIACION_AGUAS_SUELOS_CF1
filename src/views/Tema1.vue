@@ -28,8 +28,6 @@
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp;Condiciones bioclimáticas del medio donde se acumulan.
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp;Condiciones bioclimáticas del medio donde se acumulan.
-          li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp;Características físicas, químicas y biológicas del medio donde se acumulan.
 
       .col-lg-6
@@ -40,7 +38,7 @@
 
 
     div(v-show="imagen_info1")
-      ImagenInfografica.color-secundario.mt-4(data-aos="fade-in")
+      ImagenInfografica.color-secundario.mt-4(data-aos="fade-in" style="position:relative;")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema1/3.svg' alt='' data-aos="fade-in")
@@ -52,7 +50,7 @@
         .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="95%" y="51%" numero="3")
           .h5.text-white.text-center El suelo también permite la disponibilidad de nutrientes para las plantas, el desarrollo de los ciclos biogeoquímicos, la regulación del balance hídrico, entre otros.
 
-      .text-center(style="margin-top:-50px;position:relative;" data-aos="fade-in")
+      .text-center(style="top: -50px;position:relative;max-width:200px;margin: 0 auto" data-aos="fade-in")
         div(style="width:200px;height:50px;display:inline;")
           button.boton_1(style="color:#00FF89;background-color:#389BB9;border-top-left-radius:30px;border-bottom-left-radius:30px;padding:.5rem .8rem .5rem .8rem;")
             i.fas.fa-angle-left(style="font-size:25px;")
@@ -70,7 +68,7 @@
         .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="90%" y="64%" numero="1")
           .h5.text-white.text-center La producción de alimento para toda la humanidad es el actual objetivo de la agricultura y por ello, se han desarrollado estrategias y mecanismos que permitan aumentar la producción de los cultivos y la resistencia a plagas y enfermedades, pero también se ha generado a raíz de esto, el incremento de sustancias contaminantes que se acumulan en el suelo.
 
-      .text-center(style="margin-top:-50px;position:relative;" data-aos="fade-in")
+      .text-center(style="top: -50px;position:relative;max-width:200px;margin: 0 auto" data-aos="fade-in")
         div(style="width:200px;height:50px;display:inline;")
           button.boton_1(@click="imagen_info1 = true;imagen_info2 = false" style="color:#00FF89;background-color:#389BB9;border-top-left-radius:30px;border-bottom-left-radius:30px;padding:.5rem .8rem .5rem .8rem;")
             i.fas.fa-angle-left(style="font-size:25px;")
@@ -88,7 +86,7 @@
         .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="60%" y="70%" numero="1")
           .h5.text-white.text-center Generando así, una reacción en cadena que permite que esos fenómenos se transfieran a otros componentes, como el agua superficial, el agua subterránea o el aire y se magnifiquen.
 
-      .text-center(style="margin-top:-50px;position:relative;" data-aos="fade-in")
+      .text-center(style="top: -50px;position:relative;max-width:200px;margin: 0 auto" data-aos="fade-in")
         div(style="width:200px;height:50px;display:inline;")
           button.boton_1(@click="imagen_info2 = true;imagen_info3 = false" style="color:#00FF89;background-color:#389BB9;border-top-left-radius:30px;border-bottom-left-radius:30px;padding:.5rem .8rem .5rem .8rem;")
             i.fas.fa-angle-left(style="font-size:25px;")
@@ -106,7 +104,7 @@
         .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="68%" y="47%" numero="1")
           .h5.text-white.text-center Estos son procesos de deterioro o pérdida principalmente de las propiedades físicas y requieren atención especial, por su parte la contaminación es un efecto un poco más delicado, debido a que es más complejo de tratar.
 
-      .text-center(style="margin-top:-50px;position:relative;" data-aos="fade-in")
+      .text-center(style="top: -50px;position:relative;max-width:200px;margin: 0 auto" data-aos="fade-in")
         div(style="width:200px;height:50px;display:inline;")
           button.boton_1(@click="imagen_info3 = true;imagen_info4 = false" style="color:#00FF89;background-color:#389BB9;border-top-left-radius:30px;border-bottom-left-radius:30px;padding:.5rem .8rem .5rem .8rem;")
             i.fas.fa-angle-left(style="font-size:25px;")
@@ -124,7 +122,7 @@
         .tarjeta.color-acento-botones.p-5(style="border-radius:0px;" x="65%" y="50%" numero="1")
           .h5.text-white.text-center Desafortunadamente también alberga y transporta contaminantes que, al igual que en el suelo, generan procesos de disminución de su calidad y de contaminación.
 
-      .text-center(style="margin-top:-50px;position:relative;" data-aos="fade-in")
+      .text-center(style="top: -50px;position:relative;max-width:200px;margin: 0 auto" data-aos="fade-in")
         div(style="width:200px;height:50px;display:inline;")
           button.boton_1(@click="imagen_info4 = true;imagen_info5 = false" style="color:#00FF89;background-color:#389BB9;border-top-left-radius:30px;border-bottom-left-radius:30px;padding:.5rem .8rem .5rem .8rem;")
             i.fas.fa-angle-left(style="font-size:25px;")
@@ -133,13 +131,13 @@
           button.boton_1(style="color:#00FF89;background-color:#0F1E5A;border-top-right-radius:30px;border-bottom-right-radius:30px;padding:.5rem .8rem .5rem .8rem;")
             i.fas.fa-angle-right(style="font-size:25px;")
 
-    p.mt-4(data-aos="fade-up") Es importante recordar que aunque el planeta está formado por 75% de agua, la que se encuentra disponible para el consumo humano es menos del 1%, por lo que es de suma importancia velar por su conservación y uso eficiente. En la figura 1 se observa la forma como se distribuye el agua y su proporción en el planeta, mientras que en la figura 2 se observa su disponibilidad para el consumo humano.
+    p.mt-4(data-aos="fade-up") Es importante recordar que aunque el planeta está formado por 75 % de agua, la que se encuentra disponible para el consumo humano es menos del 1 %, por lo que es de suma importancia velar por su conservación y uso eficiente. En la figura 1 se observa la forma como se distribuye el agua y su proporción en el planeta, mientras que en la figura 2 se observa su disponibilidad para el consumo humano.
 
     .col-lg-8.m-auto
       p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 1.] Distribución y proporción del agua en el planeta
       figure
         img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
-      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota: Adaptado del Instituto de Tecnologías Educativas (s.f.).
+      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota: Adaptado del Instituto de Tecnologías Educativas (s.f.). #[a(href="http://educalab.es/recursos" target="_blank") http://educalab.es/recursos]
 
     .row.mt-5
       .col-lg-4
@@ -234,7 +232,7 @@
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Pruebas de germinación
             td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;")
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Conteo de organismos.
-              p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Identificación de  grupos funcionale
+              p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Identificación de  grupos funcionales
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Índices de biodiversidad
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Índices de abundancia
 
@@ -271,7 +269,7 @@
     p.mt-4(data-aos="fade-up") En la naturaleza se ha logrado la identificación de menos de 100 elementos químicos naturales (de los 118 que tiene la tabla periódica), con diferentes características y propiedades, lo que ha permitido clasificarlos en grupos con similitudes; uno de estos grupos son los metales, y de estos se desprende un pequeño grupo conocido como metales pesados.
 
     .cajon.color-secundario.p-5.mt-3.col-lg-5.m-auto(style="border-bottom-right-radius:100px;")
-      .p(data-aos="fade-up") Reyes (2017) los describe como elementos con alta toxicidad para el ser humano y otros seres vivos y con una densidad mayor a 4 g/cm3.
+      .p(data-aos="fade-up") Reyes (2017) los describe como elementos con alta toxicidad para el ser humano y otros seres vivos y con una densidad mayor a 4 g/cm#[sup 3].
 
     p.mt-4(data-aos="fade-up") Entre los elementos que se catalogan en este grupo se tiene el plomo, el mercurio, cadmio, níquel, cobre, berilio, arsénico, cromo, vanadio y zinc; la gran mayoría de ellos se acumulan en el ambiente debido a procesos industriales y de minería, ya sea a través de sus residuos sólidos o líquidos, ingresando así a la cadena trófica a través de las plantas que los absorben y acumulan en sus tejidos, como se ilustra en la figura a continuación.
 
@@ -291,11 +289,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/15.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La acumulación de este tipo de sustancias contaminantes en los suelos hace que estos queden inutilizables durante muchos años al alterar significativamente propiedades como el intercambio gaseoso con la atmósfera, desarrollo de fases de los ciclos biogeoquímicos, bioestructura y el metabolismo microbiano, imposibilitando el crecimiento de las plantas, al no permitir las condiciones para que estas puedan tomar los nutrientes que necesitan del suelo; en el caso de su acumulación en las aguas disminuye el contenido de oxígeno, impide el ingreso de luminosidad solar, afecta procesos de intercambio de oxígeno y otros gases con la atmósfera y, cambia el pH y potencial redox de este cuerpo.
+        p.mb-0 La acumulación de este tipo de sustancias contaminantes en los suelos hace que estos queden inutilizables durante muchos años al alterar significativamente propiedades como el intercambio gaseoso con la atmósfera, desarrollo de fases de los ciclos biogeoquímicos, bioestructura y el metabolismo microbiano, imposibilitando el crecimiento de las plantas, al no permitir las condiciones para que estas puedan tomar los nutrientes que necesitan del suelo; en el caso de su acumulación en las aguas disminuye el contenido de oxígeno, impide el ingreso de luminosidad solar, afecta procesos de intercambio de oxígeno y otros gases con la atmósfera y, cambia el pH y potencial #[em redox] de este cuerpo.
 
     p.mt-5(data-aos="fade-up") Este tipo de problemáticas ambientales originan efectos adversos sobre el ecosistema (como se resume en la tabla 2), debido a la naturaleza del petróleo y sus derivados, ya que el petróleo “contiene compuestos químicos tóxicos que producen daños a plantas, animales y humanos, pero principalmente sobre las poblaciones de microorganismos, los cuales representan parte importante del ecosistema y son claves para los procesos biogeoquímicos” (Vasudevan y Rajaram, 2001 citados por Zamora, Ramos y Arias, 2011).
 
-    p.p-1.mt-5(style="border-left:5px #31B7DC solid;margin-left:10px;") &nbsp;&nbsp; #[strong Tabla 2] Principales propiedades en estudios para la caracterización de suelos y aguas
+    p.p-1.mt-5(style="border-left:5px #31B7DC solid;margin-left:10px;") &nbsp;&nbsp; #[strong Tabla 2] Riesgos de algunos tipos de hidrocarburos sobre la salud y el ambiente
 
     .tabla-a.color-acento-botones.mt-4(style="overflow:clip;")
       table(style="min-width:100%")
@@ -346,9 +344,9 @@
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Halogenados.
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Organofosforados
+            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Organofosforados.
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Carbamatos
+            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Carbamatos.
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Derivados de la urea.
         p.mt-4(data-aos="fade-up") En la tabla 3 se presenta la clasificación dada por la Organización Mundial de la Salud (OMS) según la toxicidad (expresada por el parámetro llamado dosis letal media – DL50).
@@ -361,7 +359,7 @@
             thead(style="border:none")
               th.text-white(style="background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Categoría Toxicidad
               th.text-white(style="background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Tipo toxicológico
-              th.text-white.text-center(style="background-color:#1A7B96;border:none;padding:15px;font-size:17px") DL50 ( mg plaguicida/kg de masa corporal)
+              th.text-white.text-center(style="background-color:#1A7B96;border:none;padding:15px;font-size:17px") DL#[sub 50] ( mg plaguicida/kg de masa corporal)
             tbody
               tr(style="background-color:#EBEFF6;")
                 td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Extremada 
@@ -403,7 +401,7 @@
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Efectos mutagénicos.
 
       .col-lg-6
-        p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 5.] PVías de ingreso de plaguicidas al ecosistema
+        p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 5.] Vías de ingreso de plaguicidas al ecosistema
         figure
           img(src="@/assets/curso/tema1/17.svg" data-aos="fade-up")
         figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de (Del Puerto, 2014).

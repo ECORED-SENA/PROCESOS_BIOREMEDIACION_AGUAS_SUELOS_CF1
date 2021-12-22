@@ -20,6 +20,7 @@
     br
     .mt-5.titulo-segundo
       h2#t_2_1 2.1  Magnitudes fundamentales
+    p(data-aos="fade-up") En la medición de una determinada magnitud se debe usar un valor que sirva de referencia y que permita comparar varias mediciones, al cual se le llama unidad de medida. 
 
     .p-4(style="background-color:#002346;border-top-left-radius:15px;border-top-right-radius:15px;z-index: 2;position: relative;")
       h3.text-center.mb-0(style="color:#15EBD6;" data-aos="fade-up") Magnitudes
@@ -104,7 +105,7 @@
               tr(style="background-color:#EBEFF6;")
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Aceleración
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") a
-                td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") L/t2
+                td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") L/t#[sup 2]
               tr(style="background-color:#F7FDFF;")
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Densidad
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") D
@@ -120,7 +121,7 @@
               tr(style="background-color:#EBEFF6;")
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Fuerza
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") F
-                td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") M*L/t2
+                td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") M*L/t#[sup 2]
               tr(style="background-color:#F7FDFF;")
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Presión
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") P
@@ -135,7 +136,7 @@
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") V*l
 
         p.mt-3.text-white.text-center.mb-0(data-aos="fade-up") El caudal, por ejemplo, se puede definir como la cantidad (volumen) de un líquido que fluye por unidad de tiempo; y es una magnitud muy utilizada en los estudios con corrientes de agua, ya que permite dimensionar la carga contaminante que presenta ese cuerpo de agua.
-        p.mt-3.text-white.text-center.mb-0(data-aos="fade-up") Normalmente se expresa en m3/s y es una variable que permite estimar y modelar la dinámica y dispersión de los contaminantes en el agua.
+        p.mt-3.text-white.text-center.mb-0(data-aos="fade-up") Normalmente se expresa en m#[sup 3]/s y es una variable que permite estimar y modelar la dinámica y dispersión de los contaminantes en el agua.
 
     p.mt-4(data-aos="fade-up") Para el establecimiento de las unidades de medición existen diferentes referencias denominadas sistemas de unidades y consisten en una batería de varias cantidades adoptadas como patrones, que permiten comparar frente a ellos, los valores o cantidades medidos de una propiedad.
 
@@ -242,7 +243,7 @@
       p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 6.] Partes de una solución
       figure
         img(src="@/assets/curso/tema2/9.svg" data-aos="fade-up")
-      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Soluto y Solvente (Bolívar, 2021).
+      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Soluto y Solvente (Bolívar, 2021). #[a(href=" https://www.lifeder.com/soluto-y-solvente/" target="_blank")  https://www.lifeder.com/soluto-y-solvente/]
 
     p.mt-4(data-aos="fade-up") La determinación de las relaciones o proporciones que existen entre la cantidad de soluto y solvente es lo que se llama concentración, en la figura 7 se visualiza las diferentes opciones de concentración a medida que se incrementa la cantidad de soluto.
 
@@ -250,7 +251,7 @@
       p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 7.] Concentración de soluciones
       figure
         img(src="@/assets/curso/tema2/10.svg" data-aos="fade-up")
-      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Concentración Cualitativa. Química en el entorno (2014).
+      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Concentración Cualitativa. Química en el entorno (2014). #[a(href="http://quimicaysuentorno.blogspot.com/2014/10/concentracion-cualitativa.html" target="_blank") http://quimicaysuentorno.blogspot.com/2014/10/concentracion-cualitativa.html]
 
     p.mt-5(data-aos="fade-up") Para expresar la concentración de las soluciones se usan diferentes parámetros, cada uno de los cuales presenta unas características, aplicaciones y unidades particulares que les permiten ser útiles en distintas situaciones. Se suelen utilizar las unidades físicas y químicas para determinar la concentración de una solución, y son las siguientes:
 
@@ -321,7 +322,7 @@
             td(style="padding:10px;border:none;text-align:center;") adimensional
           tr(style="background-color:#EBEFF6;")
             td(style="padding:10px;border:none;border-right:1px #AFAFAF solid;text-align:center;") Fracción molar
-            td(style="padding:10px;border:none;border-right:1px #AFAFAF solid;text-align:center;") Xi
+            td(style="padding:10px;border:none;border-right:1px #AFAFAF solid;text-align:center;") X#[sub i]
             td(style="padding:10px;border:none;border-right:1px #AFAFAF solid;text-align:center;") Moles soluto/moles totales
             td(style="padding:10px;border:none;text-align:center;") adimensional
           tr(style="background-color:#F7FDFF;")
