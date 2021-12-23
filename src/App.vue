@@ -41,5 +41,5 @@ export default {
 .titulo-segundo:after
   border-left-color: #22AFD6 !important
 .banner-interno__titulo__icono i
-    color: #12263f
+    color: #12263f !important
 </style>

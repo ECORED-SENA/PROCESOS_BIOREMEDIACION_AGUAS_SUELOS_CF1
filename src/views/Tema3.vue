@@ -58,7 +58,7 @@
 
     p.p-1.mt-4(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 8.] Reinos de la naturaleza
       figure
-        img(src="@/assets/curso/tema3/4.svg" data-aos="fade-up")
+        img(src="@/assets/curso/tema3/4.png" data-aos="fade-up")
       figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de “Los reinos de la naturaleza” (Morales, s.f.). #[a(href="https://tomi.digital/es/10865/los-reinos-de-la-naturaleza?utm_source=google&utm_medium=seo" target="_blank") https://tomi.digital/es/10865/los-reinos-de-la-naturaleza?utm_source=google&utm_medium=seo]
 
     p.mt-5(data-aos="fade-up") Con el avance de las técnicas moleculares y el detallado estudio del ARN se estableció la existencia de similitudes entre los seres vivos a nivel molecular, esto permitió establecer tres grandes grupos llamados dominios, que permitieron reestructurar la forma de clasificar los seres vivos y que se consideran superiores a los reinos:

@@ -277,7 +277,7 @@
       p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 3.] Dinámica de los metales pesados en el ambiente
       figure
         img(src="@/assets/curso/tema1/14.svg" data-aos="fade-up")
-      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Heavy metal: ciclos biogeoquímicos (s.f.).
+      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Heavy metal: ciclos biogeoquímicos (s.f.). #[a(href="http://quimica-metales-pesados.blogspot.com/2010/01/ciclos-biogeoquimicosbiogeochemical.html" target="_blank") http://quimica-metales-pesados.blogspot.com/2010/01/ciclos-biogeoquimicosbiogeochemical.html]
 
     p.mt-5(data-aos="fade-up") Aunque existen numerosos estudios que ponen en evidencia los efectos tóxicos, cancerígenos, mutagénicos y teratogénicos de estos elementos, se continúa utilizándolos en diferentes procesos a nivel mundial y pocos países presentan políticas o leyes que permitan regular el uso y los valores máximos permisibles de estos contaminantes.
 
@@ -490,11 +490,11 @@
 
     ul.lista-ul.mt-4
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Se asume la máxima varianza posible, esta se da cuando la probabilidad de que un evento suceda o no es del 50%, y por ende la varianza (p*q)= 0,5*0,5 = 0,25
+        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Se asume la máxima varianza posible, esta se da cuando la probabilidad de que un evento suceda o no es del 50 %, y por ende la varianza (p*q)= 0,5*0,5 = 0,25
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Se recomienda que el error muestral (d) se estime por debajo del 10% (0.1).
+        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Se recomienda que el error muestral (d) se estime por debajo del 10 % (0.1).
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Se recomienda trabajar con un nivel de confianza del 90% o 95%; esto significa que el valor de Zα es de 1.64 o 1.96 respectivamente.
+        p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Se recomienda trabajar con un nivel de confianza del 90 % o 95 %; esto significa que el valor de Zα es de 1.64 o 1.96 respectivamente.
       li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
         p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Es posible que se conozca el tamaño total del conjunto universo (N) y se pueda estimar el tamaño de muestra (n) a partir de este, utilizando la siguiente fórmula:
 
@@ -507,7 +507,7 @@
         p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.5rem 1rem 0.5rem 1rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Pero también se puede presentar el caso en que se desconozca el tamaño total del universo, en este caso se utiliza la siguiente fórmula:
     .col-md-3.m-auto.mt-3
       figure
-        img(src="@/assets/curso/tema1/23.svg" data-aos="fade-up")
+        img(src="@/assets/curso/tema1/23.png" data-aos="fade-up")
 
     h3.mt-5(data-aos="fade-up")  Plan de muestreo
     p.mt-4(data-aos="fade-up") Es el documento que permite planificar y ejecutar de manera adecuada el muestreo, este documento permite trazar toda la ruta desde los objetivos del muestreo, pasando por la forma de obtención de resultados, los análisis a realizar y la posterior aceptación de estos según el cumplimiento de criterios estadísticos establecidos (intervalos de aceptación, pruebas de hipótesis, etc.).
