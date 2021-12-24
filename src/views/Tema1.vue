@@ -136,7 +136,7 @@
     .col-lg-8.m-auto
       p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 1.] Distribución y proporción del agua en el planeta
       figure
-        img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
+        img(src="@/assets/curso/tema1/9.png" data-aos="fade-up")
       figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota: Adaptado del Instituto de Tecnologías Educativas (s.f.). #[a(href="http://educalab.es/recursos" target="_blank") http://educalab.es/recursos]
 
     .row.mt-5
