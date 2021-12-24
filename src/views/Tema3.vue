@@ -61,7 +61,7 @@
         img(src="@/assets/curso/tema3/4.png" data-aos="fade-up")
       figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de “Los reinos de la naturaleza” (Morales, s.f.). #[a(href="https://tomi.digital/es/10865/los-reinos-de-la-naturaleza?utm_source=google&utm_medium=seo" target="_blank") https://tomi.digital/es/10865/los-reinos-de-la-naturaleza?utm_source=google&utm_medium=seo]
 
-    p.mt-5(data-aos="fade-up") Con el avance de las técnicas moleculares y el detallado estudio del ARN se estableció la existencia de similitudes entre los seres vivos a nivel molecular, esto permitió establecer tres grandes grupos llamados dominios, que permitieron reestructurar la forma de clasificar los seres vivos y que se consideran superiores a los reinos:
+    p.mt-5(data-aos="fade-up") Con el avance de las técnicas moleculares y el detallado estudio del ARN se estableció la existencia de similitudes entre los seres vivos a nivel molecular, esto permitió establecer tres grandes grupos llamados #[strong dominios], que permitieron reestructurar la forma de clasificar los seres vivos y que se consideran superiores a los reinos:
 
     ImagenInfografica.color-secundario.mt-4(data-aos="fade-in")
       template(v-slot:imagen)
@@ -105,7 +105,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/6.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        h4.d-block Ruta Metabólica
+        h4.d-block Ruta metabólica
         p.mb-0(data-aos="fade-up") Son los procesos para la obtención y consumo de energía al interior de las células, que se dan a través de reacciones químicas que permiten transformar con ayuda de las enzimas, sustancias complejas en otras más sencillas (obtención de energía) o moléculas sencillas en otras más complejas (gasto de energía).
 
     p.mt-5(data-aos="fade-up") Las enzimas son moléculas cuya función es acelerar las reacciones químicas y en algunos casos son indispensables para que la reacción pueda llevarse a cabo. En el transcurso de una ruta metabólica se producen diferentes sustancias, a las cuales se les da el nombre de metabolitos, estas sustancias pueden ser el producto final de la reacción o pueden ser productos intermedios, en cualquier caso, su aparición es debida a la acción de las enzimas y la importancia es alta, ya que pueden representar conexión con otras rutas metabólicas o pueden ser de interés antrópico.

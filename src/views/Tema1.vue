@@ -150,7 +150,7 @@
       .col-lg-8
         figure
           img(src="@/assets/curso/tema1/11.svg" data-aos="fade-up")
-        figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado del Centro virtual de información del agua (2017).
+        figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado del Centro virtual de información del agua (2017). #[a(href="https://agua.org.mx/en-el-planeta/" target="_blank") https://agua.org.mx/en-el-planeta/]
 
     br
     .titulo-segundo.mt-5
@@ -406,8 +406,7 @@
           img(src="@/assets/curso/tema1/17.svg" data-aos="fade-up")
         figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de (Del Puerto, 2014).
 
-    br
-    br
+    Separador
     .titulo-segundo.mt-5
       h2#t_1_3 1.3  Toma de muestras
 

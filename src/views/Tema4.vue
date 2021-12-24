@@ -170,7 +170,7 @@
           .row
             .col-lg-5
               h4.text-white Residuos líquidos
-              p.text-white(data-aos="fade-up") Los que no presenten contaminación por presencia de materiales peligrosos pueden ser vertidos por el alcantarillado común y ser tratados como aguas residuales domésticas;  sin embargo, los que presenten contaminación deben ser almacenados y presentados como residuos peligrosos para que una empresa especializada realice el proceso de recolección, transporte, tratamiento y disposición final como lo establece el Decreto 4741 de 2005, el cual reglamenta todo lo concerniente a #[strong(style="color:#22AFD6 !important;") #[em Respel]] en Colombia.
+              p.text-white(data-aos="fade-up") Los que no presenten contaminación por presencia de materiales peligrosos pueden ser vertidos por el alcantarillado común y ser tratados como aguas residuales domésticas;  sin embargo, los que presenten contaminación deben ser almacenados y presentados como residuos peligrosos para que una empresa especializada realice el proceso de recolección, transporte, tratamiento y disposición final como lo establece el Decreto 4741 de 2005, el cual reglamenta todo lo concerniente a #[strong(style="color:#22AFD6 !important;") #[em(style="color:#22AFD6 !important;") Respel]] en Colombia.
 
             .col-lg-7
               figure.text-center
@@ -214,7 +214,7 @@
           .row
             .col-lg-5
               h4.text-white Residuos peligrosos
-              p.text-white(data-aos="fade-up") Se han convertido en una de las problemáticas más relevantes a nivel mundial, debido a los impactos negativos causados al ambiente y la salud de los seres vivos. #[br] En la generación de #[strong(style="color:#22AFD6 !important;") #[em Respel]] a escala mundial, Colombia se encuentra en una escala intermedia, y a nivel local es de prestar atención a los departamentos con industria petrolera, ya que de ella provienen la mayoría de los #[strong(style="color:#22AFD6 !important;") #[em Respel]] en el país, acompañado de metales pesados y demás compuestos orgánicos. #[br] Esta situación representa un inmenso campo de acción para disciplinas como la #[strong biorremediación], ya que son justamente este tipo de sustancias, con alto grado de toxicidad,  el objeto de estudio de sus técnicas.
+              p.text-white(data-aos="fade-up") Se han convertido en una de las problemáticas más relevantes a nivel mundial, debido a los impactos negativos causados al ambiente y la salud de los seres vivos. #[br] En la generación de #[strong(style="color:#22AFD6 !important;") #[em(style="color:#22AFD6 !important;") Respel]] a escala mundial, Colombia se encuentra en una escala intermedia, y a nivel local es de prestar atención a los departamentos con industria petrolera, ya que de ella provienen la mayoría de los #[strong(style="color:#22AFD6 !important;") #[em(style="color:#22AFD6 !important;") Respel]] en el país, acompañado de metales pesados y demás compuestos orgánicos. #[br] Esta situación representa un inmenso campo de acción para disciplinas como la #[strong biorremediación], ya que son justamente este tipo de sustancias, con alto grado de toxicidad,  el objeto de estudio de sus técnicas.
 
             .col-lg-7
               figure.text-center

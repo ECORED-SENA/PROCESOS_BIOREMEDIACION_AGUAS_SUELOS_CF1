@@ -42,4 +42,6 @@ export default {
   border-left-color: #22AFD6 !important
 .banner-interno__titulo__icono i
     color: #12263f !important
+a.boton.barra-avance__boton--regresar span
+    color: white !important
 </style>
