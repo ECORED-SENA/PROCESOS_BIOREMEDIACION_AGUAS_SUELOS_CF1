@@ -131,7 +131,7 @@
     .titulo-segundo.mt-5
       h2#t_3_3 3.3  Ciclos biogeoquímicos
 
-    p(data-aos="fade-up") Los procesos de circulación de materia y flujos de energía característicos del metabolismo microbiano se dan también entre los diferentes elementos de los ecosistemas del planeta, formando una serie de interacciones entre estos elementos y los seres vivos, conocidos como #[strong(style="color: #22AFD6 !important;") ciclos biogeoquímicos] y se refieren a la circulación de elementos (azufre, calcio, carbono, fósforo, nitrógeno, oxígeno, hierro) o sustancias (como el agua) indispensables para todas las formas de vida, que pueden ser utilizados una y otra vez , que permiten la circulación de materia entre organismos y otros factores, en forma de nutrientes. 
+    p(data-aos="fade-up") Los procesos de circulación de materia y flujos de energía característicos del metabolismo microbiano se dan también entre los diferentes elementos de los ecosistemas del planeta, formando una serie de interacciones entre estos elementos y los seres vivos, conocidos como #[strong(style="color: #22AFD6 !important;") ciclos biogeoquímicos] y se refieren a la circulación de elementos (azufre, calcio, carbono, fósforo, nitrógeno, oxígeno, hierro) o sustancias (como el agua) indispensables para todas las formas de vida, que pueden ser utilizados una y otra vez, que permiten la circulación de materia entre organismos y otros factores, en forma de nutrientes. 
     p.mt-3(data-aos="fade-up") Los nutrientes disponibles para los procesos vitales en el planeta se pueden clasificar en: 
 
     ul.lista-ul.mt-4.col-lg-9.m-auto

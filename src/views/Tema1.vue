@@ -209,7 +209,7 @@
                   p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Grasas y aceites
                   p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Temperatura
                   p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] pH
-                  p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] compuestos orgánicos volátiles
+                  p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Compuestos orgánicos volátiles
                   p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Alcalinidad
                   p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Nutrientes
                   p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Contenido de materia orgánica
@@ -277,7 +277,7 @@
       p.p-1(style="border-left:5px #31B7DC solid;") &nbsp;&nbsp; #[strong Figura 3.] Dinámica de los metales pesados en el ambiente
       figure
         img(src="@/assets/curso/tema1/14.svg" data-aos="fade-up")
-      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Heavy metal: ciclos biogeoquímicos (s.f.). #[a(href="http://quimica-metales-pesados.blogspot.com/2010/01/ciclos-biogeoquimicosbiogeochemical.html" target="_blank") http://quimica-metales-pesados.blogspot.com/2010/01/ciclos-biogeoquimicosbiogeochemical.html]
+      figcaption(style="background-color:#DCEBEF;font-weight:400;") Nota. Adaptado de Heavy metal: ciclos biogeoquímicos (s.f.)
 
     p.mt-5(data-aos="fade-up") Aunque existen numerosos estudios que ponen en evidencia los efectos tóxicos, cancerígenos, mutagénicos y teratogénicos de estos elementos, se continúa utilizándolos en diferentes procesos a nivel mundial y pocos países presentan políticas o leyes que permitan regular el uso y los valores máximos permisibles de estos contaminantes.
 
@@ -307,7 +307,7 @@
             td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;")
               h5 Alifáticos
             td(style="padding:20px;border:none;border-right:1px #AFAFAF solid;")
-              p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Alcaos
+              p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Alcanos
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Alquenos
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Alquinos
               p #[img(src="@/assets/curso/tema1/12.svg" style="max-width:10px;display:inline;")] Cicloalcanos
@@ -359,7 +359,7 @@
             thead(style="border:none")
               th.text-white(style="background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Categoría Toxicidad
               th.text-white(style="background-color:#1A7B96;border:none;text-align:left;padding:15px;font-size:17px") Tipo toxicológico
-              th.text-white.text-center(style="background-color:#1A7B96;border:none;padding:15px;font-size:17px") DL#[sub 50] ( mg plaguicida/kg de masa corporal)
+              th.text-white.text-center(style="background-color:#1A7B96;border:none;padding:15px;font-size:17px") DL#[sub 50] (mg plaguicida/kg de masa corporal)
             tbody
               tr(style="background-color:#EBEFF6;")
                 td.text-center(style="padding:20px;border:none;border-right:1px #AFAFAF solid;") Extremada 

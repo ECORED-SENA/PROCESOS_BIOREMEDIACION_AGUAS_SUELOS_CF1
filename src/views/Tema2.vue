@@ -92,7 +92,7 @@
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") L*L
               tr(style="background-color:#F7FDFF;")
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Volumen
-                td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Vol
+                td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Vol.
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") L*L*L o A*L
               tr(style="background-color:#EBEFF6;")
                 td(style="padding:10px;border:none;border:1px #AFAFAF solid;text-align:center;") Velocidad

@@ -42,7 +42,7 @@
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Riesgo medio (Clase III).
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
-            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Riesgo bajo (Clase II ).
+            p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Riesgo bajo (Clase II).
           li.pb-3(data.aos="fade-up" style="border-bottom:1px #AFAFAF solid;")
             p.mb-0 #[i.fas.fa-angle-right(style="color: rgb(43, 103, 165);background-color: rgb(137, 235, 212);padding: 0.2rem .5rem;font-size: 1.4rem;")] &nbsp;&nbsp;&nbsp; Riesgo mínimo (Clase I).
       .col-lg-6
